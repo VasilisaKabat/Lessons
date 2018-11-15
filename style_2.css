@@ -1,0 +1,119 @@
+/*Задание 1*/
+
+div {
+	border: 2px solid #000000;
+	padding: 15px;
+	background: #4d004d;
+
+}
+
+div>div {
+	background: #ffb3ff;
+}
+div>div>div {
+	background: #ff3300;
+}
+div>div>div>div {
+	background: #ffff00;
+}	
+div>div>div>div>div {
+	background: #66ffff;
+}	
+
+
+/*Задание 2*/
+
+li:first-child {
+	border-bottom: 3px solid #00004d;
+	font-size: 20px;
+	font-weight: 900;
+}
+li:last-child {
+	border-bottom: 1px solid #00004d;
+}
+
+a:hover {
+	color: red;
+	text-decoration: underline;
+}
+
+/*Задание 5*/
+
+form {
+	padding: 20px;
+}
+
+/*Задание 6*/
+
+table {
+    border-collapse: collapse; 
+    width: 100%; 
+    border-spacing: 0; 
+	margin-top: 15px;
+}
+
+th {
+	background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+	font-size: 19px;
+}
+
+tr:nth-child(2n) {
+	background: #66ffff;
+}
+
+tr:nth-child(odd) {
+	background: #ffcccc;
+}
+
+
+td:last-of-type  {
+	text-align: right;
+}
+
+td:nth-child(4) {
+	text-align: center;
+}
+
+td:nth-child(5) {
+	text-align: center;
+	
+	
+	
+	/*Задание 7 и 8   не могу понять, почему не работает в общей работе. сделано отдельно в style22.
+
+.flex-container div {
+  border: 3px solid black;
+  padding: 20px;
+  width: 20%;
+  text-align: center;
+  background-color: rgb(255, 191, 0);
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+h4 {
+   border: 2px dashed red;
+   background-color: #ffff00
+}
+.box-1 {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+
+#change {
+  width: 100px;
+  background-color:  #ffccff;
+  */
+  transition-property: all;
+  
+}
+#change:hover {
+  width: 200px;
+  background-color: #cc33ff;
+}
+
+	
